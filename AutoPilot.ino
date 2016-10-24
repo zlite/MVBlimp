@@ -150,8 +150,6 @@ float constrain_float(float value, float max, float min)
     value=min;
   }
   return value;
-<<<<<<< HEAD
 }
-=======
 }
 >>>>>>> origin/master

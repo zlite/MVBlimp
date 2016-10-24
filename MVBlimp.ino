@@ -15,11 +15,8 @@ All code is freely released under an Apache 2.0 open source licence
 
 
 #define minSpeed 0 //min speed of differential thrusters
-<<<<<<< HEAD
 #define maxSpeed 250 // max speed of differential thrusters
-=======
 #define maxSpeed 50 // max speed of differential thrusters
->>>>>>> origin/master
 #define anti_static_friction_breaker 80 //This value is power that will be applied to the motor in the first second to kickstart it.. 
 // (like the capacitor used to start big electric motors)
 
@@ -84,17 +81,14 @@ Servo myservo;  // create servo object to control a servo
 #define MIN_motor -45
 #define MAX_vect 135 //Maximum pitch of the vector in navigation mode... 
 #define MIN_vect 45
-<<<<<<< HEAD
 #define MotorPin1 5
 #define MotorPin2 6
 #define MotorPin3 A2
 #define MotorPin4 A3
-=======
 #define MotorPin1 6
 #define MotorPin2 10
 #define MotorPin3 11
 #define MotorPin4 12
->>>>>>> origin/master
 #define FORWARD HIGH //defining FORWARD as HIGH
 #define REVERSE LOW
 #define UP HIGH
@@ -170,7 +164,6 @@ void Init_motors(void)
   pinMode(MotorPin3,OUTPUT);
   pinMode(MotorPin4,OUTPUT);
   Serial.println("Testing motors");
-<<<<<<< HEAD
   Serial.println("Right...forward");
   motorRight(200,FORWARD);
 //  analogWrite(MotorPin1, 250); 
@@ -353,8 +346,4 @@ void Battery_protection(void)
 
   }   
 }
-<<<<<<< HEAD
 
-=======
-
->>>>>>> origin/master
